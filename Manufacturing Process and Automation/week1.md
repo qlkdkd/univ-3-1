@@ -79,3 +79,20 @@
 ![image](https://github.com/qlkdkd/school-3-1/assets/71871927/2d386379-7f2b-4a23-a01c-badcdbc69d42)
 
 ### 제조시스템의 생산 방식
+* job shop production: 주문생산
+* batch production: batch 단위생산, setup time이 길다
+* cellular manufacturing: 유사 부품 그룹별 생산, setup time이 짧다
+* quantity production: 단일 장비에서 단일 부품을 대량 생산
+* flou line production
+  * single model: 한 가지 제품만을 생산
+  * mixed model: 유사한 제품/부품 그룹을 동시 생산
+
+### 연간 생산량, 제품 유형수, 제품간 다양성, 제품복잡성에 따른 설비배치와 생산방식
+연간 생산량|제품 유형수|제품간 다양성|제품 복잡성|생산 방식|설비배치
+---|---|---|---|---|---
+소량|다품종|경다양성|-|job shop production|고정배치, 공정별 배치
+중량|중품종|경다양성|-|batch production|공정별 배치
+중량|중품종|연다양성|-|cellular manufacturing|셀 배치
+대량|소품종|-|단일 공정|quantity production|공정별 배치
+대량|소품종|-|복수 공정|flow line single model|제품별 배치
+대량|소품종|연다양성|복수 공정|flow line mixed model|제품별 배치
