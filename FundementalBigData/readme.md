@@ -1,5 +1,5 @@
 # 빅데이터분석기초
-* [week1]()
+* [week1](https://github.com/qlkdkd/school-3-1/tree/main/FundementalBigData/week1)
 * [week2]()
 * [week3]()
 * [week4]()
