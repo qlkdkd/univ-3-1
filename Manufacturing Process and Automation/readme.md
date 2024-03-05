@@ -1,16 +1,15 @@
 # 제조 공정 및 자동화
-* week1[]
-* week2[]
-* week3[]
-* week4[]
-* week5[]
-* week6[]
-* week7[]
-* week8(중간고사)[]
-* week9[]
-* week10[]
-* week11[]
-* week12[]
-* week13[]
-* week14[]
-* week15(기말고사)[]
+* [week1]()
+* [week2]()
+* [week3]()
+* [week4]()
+* [week5]()
+* [week6]()
+* [week7]()
+* [week9]()
+* [week10]()
+* [week11]()
+* [week12]()
+* [week13]()
+* [week14]()
+* (8주차와 15주차는 각각 중간, 기말)
