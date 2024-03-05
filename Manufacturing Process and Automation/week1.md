@@ -115,4 +115,58 @@
 ### 제조시스템의 자동화를 위한 컴퓨터 시스템의 종류
 * CNC unit
 * Robot controller
-* Programmable logic controller
+* Programmable logic controller(PLC)
+
+
+## 제조시스템의 자동화 장비
+* 가공: CNC Machining center, Turning center, Industrial robot
+* 조립: Industrial robot
+* 운반: AVG(Automated Guided Vehicle), Industrial robot
+* 저장: AS/RS(Automatic Storage and Retrieval System)
+* 검사: CMM(Coordinate Measuring Machine), Machine vision system
+
+
+## 제조시스템의 자동화 유형
+* 고정 자동화: 가공/조립 작업이 고정됨
+* 프로그램가능 자동화: 프로그램에 따라 가공/조립작업이 변경됨
+* 유연자동화: 프로그램가능 자동화의 확장. 작업전환 시간이 최소화됨
+생산방식|제품/부품|장비|자동화 유형
+---|---|---|---
+quantity mass production, flow line single model|특정 제품/부품|전용장비 주문제작|고정
+job shop production, batch production|다양한 제품/부품|범용장비|프로그램 가능
+cellular manufacturing, flow line mixed model|특정 제품군/부품군|전용장비 주문제작|유연
+
+### 제조시스템의 특성과 자동화 유
+![image](https://github.com/qlkdkd/school-3-1/assets/71871927/dec8e840-2e6e-43bd-bfc7-6d8a574f57f1)
+
+
+## 제조 지원 시스템의 전산화
+*  ERP(Enterprise Resource Planning): 전사적 자원관리, 기업 내 통합정보시스템
+*  CRM(Customer Relationship Management): 고객 관계관리, 마케팅을 위한 고객 정보시스템
+*  CAD(Computer Aided Design): 컴퓨터 지원 설계
+*  CAM(Computer Aided Manufacturing): 컴퓨터를 이용한 기계 제어 프로그래밍
+*  CAE(Computer Aided Engineering): 컴퓨터를 이용한 부품이나 제품의 성능 시뮬레이션
+*  CAPP(Computer Aided Process Planning): 컴퓨터 지원 공정 계획
+*  MES(Manufacturing Execution System): 제조실행시스템, 제조 현장과 관련한 정보시스템
+
+
+## 자동화 추진 이유
+* 노동 생산성의 향상, 인건비의 절감, 노통력 부족의 해소, 작업의 안전을 제고
+* 천편일률적이고 사무적인 업무 또는 3D작업에서 인간을 해방
+  * 인간의 기계화를 자동화로 대체
+* 수작업으로 불가능한 작업을 수행
+* 제품 품질의 향상
+* 제조리드타임의 감소
+
+
+## 자동화 구형 단계
+### 자동화의 전제 조건: 안정적이고 충분한 수요
+* 자동화는 높은 초기 투자비용 요구-> 이를 회수하기 위해서 수요가 충분해야 함
+* 수요의 증가에 따라 점진적으로 자동화를 확대한다.
+
+### 일반적인 자동화 확대 단계
+1. 수동 작업장, 수동 자재취급
+2. 자동 작업장, 수동 자재취급
+3. 자동 작업장, 자동 자재취급
+
+![image](https://github.com/qlkdkd/school-3-1/assets/71871927/342d9c4d-f017-442e-9fe2-655ac320b391)
