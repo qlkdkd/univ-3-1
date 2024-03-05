@@ -96,3 +96,23 @@
 대량|소품종|-|단일 공정|quantity production|공정별 배치
 대량|소품종|-|복수 공정|flow line single model|제품별 배치
 대량|소품종|연다양성|복수 공정|flow line mixed model|제품별 배치
+![image](https://github.com/qlkdkd/school-3-1/assets/71871927/ab653f36-1f83-4d12-83f1-99f71b6f610c)
+
+
+## 제조 지원 시스템의 기능 분류
+* 비즈니스(business function): 고객과 의사소통하는 기능. 판매 및 영업, 주문처리, 수금
+* 제품 설계(product design): 연구 및 개발, 설계, 제도, 시제품 제작
+* 생산 계획(manufacturing planning): 공정 계획, 생산 계획, 자재소요계획, 능력계획
+* 생산 통제(manufacturing control): 제조현장 통제, 재고 관리, 품질 관리
+
+
+## 생산 시스템의 자동화
+### 생산 시스템에서의 컴퓨터 시스템의 활용 목적
+* 제조 시스템: 자동화
+* 제조 지원 시스템: 정보화 또는 전산화
+![image](https://github.com/qlkdkd/school-3-1/assets/71871927/64947ca1-62ab-45fc-8c98-2e75dd335935)
+
+### 제조시스템의 자동화를 위한 컴퓨터 시스템의 종류
+* CNC unit
+* Robot controller
+* Programmable logic controller
