@@ -1,4 +1,6 @@
 # 2장. 확률통계개론
+
+# 2.1. 확률기초이론론
 ## 1. 확률의 정의
 * 고전적 정의: 등확률 모형에 입각하여 정의된 것으로서 표본공간이 N개의 원소로 이루어져 있고, 각 원소가 동등한 확률로 일어난다고 가정할 떄, 사건 A에 해당하는 원소의 개수가 $n(A)$라고 하면 사건 A의 확률을 $\frac{n(A)}{N}$으로 정의하는 것이다.
 * 즉, 어떤 시행을 n번 반복했을 때 사상(event) A가 r번 일어나면 값 $\frac{r}{n}$을 사상 A의 상대 도수라 하고, n의 수가 커질수록 이 상대도수는 일정한 값 p에 가까워지는데, 이를 사상 A의 확률이라고 하며 P(A)라고 함
@@ -63,7 +65,7 @@
   * X는 0~n의 값을 가짐.
 * -> 이러한 확률변수 X를 이항확률변수라고 하며, 그 분포를 이항분포라고 함
 
-![image](https://github.com/qlkdkd/school-3-1/assets/71871927/94d8ff54-9770-48d6-937c-f4775bffe1f5)
+![image](https://github.com/qlkdkd/school-3-1/assets/71871927/235700d0-3643-4267-a1d6-12994a041ef4)
 
 ### 6. 포아송 분포
 * 통상 발생확률이 매우 적은 사건의 단위시간당 발생 횟수를 나타낼 때 사용되는 분포
@@ -73,3 +75,21 @@
 * 포아송 분포는 **평균과 분산이 같은 분포**
 
 ![image](https://github.com/qlkdkd/school-3-1/assets/71871927/2f3757bd-d16a-4cd4-b4cc-ec709b4bf60f)
+
+## 5. 연속확률분포
+* 확률변수가 가질 수 있는 값의 개수가 무한한 연속형 확률변수가 가지는 확률분포를 의미
+* 확률밀도함수(PDF; Probability Density Function)으로 표현
+
+![image](https://github.com/qlkdkd/school-3-1/assets/71871927/1af9c87f-a30e-49e9-afe5-e3816bd8a266)
+![image](https://github.com/qlkdkd/school-3-1/assets/71871927/921bc2f5-bb7a-4fde-901f-7c0cffc5bcc9)
+
+### 1. 정규분포
+* 연속확률분포 중에 가장 대표적인 분포
+* 종모양으로 평균에 대하여 좌우대칭인 분포
+* 평균과 분산에 따라 구체적인 분포의 위치와 모양이 결정됨
+* 일일이 적분하여 확률을 계산하는 번거로움을 줄이기 위해 **평균=0, 분산=1**로 표준화한 분포
+
+![image](https://github.com/qlkdkd/school-3-1/assets/71871927/74ac49e1-8eea-4f10-8ab2-eb12edd20de6)
+
+* 정규분포는 표본평균의 분포와 관련된 중심극한정리에서 매우 중요한 분포로서 등장함
+![image](https://github.com/qlkdkd/school-3-1/assets/71871927/4e2924bb-ef87-4bc5-8980-de94f008677c)
