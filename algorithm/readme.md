@@ -1,5 +1,5 @@
 # 알고리즘
-* [week1]()
+* [week1](https://github.com/qlkdkd/univ-3-1/tree/main/algorithm/week1)
 * [week2]()
 * [week3]()
 * [week4]()
