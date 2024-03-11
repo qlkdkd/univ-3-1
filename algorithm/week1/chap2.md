@@ -132,6 +132,7 @@ if __name__=="__main__":
 
 ## 2.3. 복잡도 분석 예: 반복 알고리즘
 ![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/e3614234-86cb-4d76-891d-626634945588)
+### 자연수의 제곱 계산
 ```python
 #알고리즘 A
 def compute_square_A(n):
@@ -155,3 +156,66 @@ def compute_square_C(n):
 * 알고리즘 A: $T(n)=1$, $O(1)$
 * 알고리즘 B: $T(n)=n\in O(n)$
 * 알고리즘 C: $T(n)=n^2\in O(n^2)$
+
+### 리스트의 중복 항목 탐색
+```python
+def unique_elements(A):
+    n=len(A)#입력의 크기=리스트의 크기
+    for i in range(n-1):#i=0, 1,~, n-2
+        for j in range(i+1, n):#j=i+1, i+2, ~, n-1
+            if A[i]==A[j]:#기본 연산
+                return False#같은 항목이 있으면 False 반환
+    return True#같은 항목이 없으면 True 반환
+
+#알고리즘 테스트
+if __name__=='__main__':
+    A=[32, 14, 5, 17, 9, 11, 14, 26, 29]
+    B=[13, 6, 8, 7, 12, 25]
+    print(A, unique_elements(A))
+    print(B, unique_elements(B))
+```
+* 입력의 크기: 리스트의 전체 항목 수
+* 기본 연산: 이중 루프 안에 가장 안쪽에 위치한 5행의 비교연산자 `A[i]==A[j]`
+* 최악의 경우: n(n-1)/2번의 비교 필요->$O(n^2)$에 속함
+* -> 만약 이 문제를 두 단계 알고리즘으로 해결하면 복잡도를 $O(nlog_2(n))$으로 줄일 수 있음
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/3f7d507d-d2e3-4aa6-bb23-1819081eec7b)
+
+### 자연수의 2진수 변환시 비트 수
+```python
+def binary_digits(n):
+    count=1
+    while n>1:
+        count=count+1
+        n=n//2
+    return count
+
+if __name__=="__main__":
+    n=int(input('숫자 입력: '))
+    print('비트 수: ',binary_digits(n))
+```
+* 입력의 크기: n
+* 기본 연산: 3행의 while문 내부의 문장들이 가장 많이 반복될 것으로 예상할 수 있는데, 4행과 5행이 같은 횟수만큼 반복됨
+* n을 $2^k$라고 가정하고 루프가 반복될 때마다 n이 다음과 같이 절반씩 줄어듬
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/98af5462-6623-4e77-80b8-ecd1b5825d2e)
+* $n=2^k$->
+$$복잡도=O(log_2(n))$$
+
+## 2.4. 복잡도 분석 예: 순환 알고리즘
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/9d5c4921-f38b-4201-b1be-6ae3deaa3de6)
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/665193bc-94b0-427b-a5ad-e1eedcb8eed4)
+
+```python
+def factorial(n):
+    if n==1:
+        return 1
+    else:
+        return n*factorial(n-1)
+    
+if __name__=='__main__':
+    n=int(input("숫자 입력: "))
+    print("입력한 숫자의 팩토리얼 값: ", factorial(n))
+```
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/542c4564-1fbb-4100-aeec-d6d481ec670d)
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/96b17dbd-deab-446f-b2d0-bbc9bf789515)
