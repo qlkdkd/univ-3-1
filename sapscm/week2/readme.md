@@ -38,3 +38,10 @@
   * Instant value through a low adoption barrier, both on the IT system side and on the user adoption side.
 
 ![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/216a45e7-d234-406c-a11f-43fc88994cb0)
+* Transaction apps offer task-based access to tasks like change, create, and display(documents, master records) or entire processes with guided navigation
+* Analytical apps provide insight to action. They give you a visual overview of complex topics for monitoring or tracking purposes.
+* Fact sheets give you the opportunity to search and explore your data. They provide a 360-degree view on essential information about an object and contextual navigation between related objects.
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/1f7c724b-01a7-4628-9808-08c333d4cc84)
+* The SAP Fiori launchpad is a shell that hosts SAP Fiori apps and provides services such as navigation, personalization, emnedded support, and application configuration.
+* It is also the entry point to SAP Fiori apps on mobile and desktop devices. the launchpad displays a nome page with tiles, which 
