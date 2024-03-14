@@ -1,2 +1,2 @@
-* [w2_1_파이썬의 자료형]()
-* [w2-2_데이터 분석을 위한 파이썬 라이브러리]()
+* [w2_1_파이썬의 자료형](https://github.com/qlkdkd/univ-3-1/blob/main/FundementalBigData/week2/w2_1_%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%98%20%EC%9E%90%EB%A3%8C%ED%98%95.ipynb.ipynb)
+* [w2-2_데이터 분석을 위한 파이썬 라이브러리](https://github.com/qlkdkd/univ-3-1/blob/main/FundementalBigData/week2/w2_2_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B6%84%EC%84%9D%EC%9D%84_%EC%9C%84%ED%95%9C_%ED%8C%8C%EC%9D%B4%EC%8D%AC_%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%20(1).ipynb)
