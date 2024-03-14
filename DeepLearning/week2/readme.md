@@ -13,3 +13,17 @@
 * 미분: 함수의 순간변화율. 다음과 같이 독립변수 $x$의 변화량에 대한 함수 $f(x)$의 변화량의 비율의 극한으로 정의됨.
 
 ![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/0e2f6481-4cba-42b7-8a8a-bfd65d3fabc1)
+
+* 함수 $f'(x)$를 $f(x)$의 도함수라고도 함. 도함수는 $\frac{d}{d(x)}f(x)$라고도 함.
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/b64e0303-fc39-454d-95ea-31a9d542c758)
+* $\delta x$가 그림 1에서 그림2, 그림3으로 갈수록 점점 작아지며 이 값이 0에 가까워지면 그림 3과 같이 기울기값도 변함.
+* 그림 3을 살펴보면 그림 속의 직선은 (a, f(a))점에서 이 점을 지나는 접선의 기울기와 같아지는 것을 볼 수 있음
+
+* $f(x)=x^2$함수가 있을 때 이 함수의 미분값은 다음과 같이 구함.
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/04968922-d48a-4b34-b42b-baddd20e3e14)
+
+위와 같은 식을 통해서 유도한 여러가지 함수의 미분값을 구하는 기본 공식
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/099343d9-00c2-4ef2-bc6f-0355700e57bd)
