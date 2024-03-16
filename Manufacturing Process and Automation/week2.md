@@ -37,3 +37,12 @@
 * 소성변형(plastic deformation): 영구변형
 * 탄성변형(elastic deformation): 일시적 변형
 ### [금속의 결정 구조와 하중에 의한 결정구조의 변화](https://drive.google.com/file/d/0B27lN6BLzQm1WVEtUzkxV2laU3M/view?resourcekey=0-32fWhmaPLLYbGvKcxozZzA)
+
+## [인장(tension) 시험](https://drive.google.com/file/d/0B27lN6BLzQm1SzJCNjQtbkNiZHc/view?resourcekey=0-IHuYHf3d1Lq6v-83nkk63g)과 응력-변형률 곡선
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/dcfedf9e-3d51-4957-b850-5e38786ea05b)
+
+* 항복 강도(yield strength): 소성변형(plastic deformation)이 시작될 때 가해지는 응력
+* 인장 강도(tensile strength): 극한인장강도(UTS; Ultimate Tensile Strength)라고도 하며 소재에 가해질 수 있는 최대 인장 응력
+* 연성(ductility)
+  * 연신률(%): $\frac{l_f-l_o}{l_o}\mul 100$
+  * 단면감소율($): $\frac{A_o-A_f}{A_o}\mul 100$
