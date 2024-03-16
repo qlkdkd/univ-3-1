@@ -44,5 +44,5 @@
 * 항복 강도(yield strength): 소성변형(plastic deformation)이 시작될 때 가해지는 응력
 * 인장 강도(tensile strength): 극한인장강도(UTS; Ultimate Tensile Strength)라고도 하며 소재에 가해질 수 있는 최대 인장 응력
 * 연성(ductility)
-  * 연신률(%): $\frac{l_f-l_o}{l_o}\mul 100$
-  * 단면감소율($): $\frac{A_o-A_f}{A_o}\mul 100$
+  * 연신률(%): $\frac{l_f-l_o}{l_o}\time 100$
+  * 단면감소율($): $\frac{A_o-A_f}{A_o}\time 100$
