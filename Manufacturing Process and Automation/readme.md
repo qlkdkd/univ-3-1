@@ -1,6 +1,6 @@
 # 제조 공정 및 자동화
 * [week1](https://github.com/qlkdkd/school-3-1/blob/main/Manufacturing%20Process%20and%20Automation/week1.md)
-* [week2]()
+* [week2](https://github.com/qlkdkd/univ-3-1/blob/main/Manufacturing%20Process%20and%20Automation/week2.md)
 * [week3]()
 * [week4]()
 * [week5]()
