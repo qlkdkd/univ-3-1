@@ -46,3 +46,25 @@
 * 연성(ductility)
   * 연신률(%): $\frac{l_f-l_o}{l_o}\times 100$
   * 단면감소율(%): $\frac{A_o-A_f}{A_o}\times 100$
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/db42a9ee-fd65-4e43-aa29-1bbdd4fc50f9)
+
+* 탄성률(elastic modulus, Young's modulus): 탄성변형 영역에서 응력-변형률 곡선의 기울기
+* 인성(toughness): 재료가 파단될 때까지 사용된 단위체적당 에너지
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/d6833d3e-2767-48af-9c43-a6e9106253c6)
+
+
+## 경도(hardness)
+### 금속의 압입 경도와 강도의 비례 관계
+* 압입 경도=$cY$( $c$: 비례 상수, $Y$: 항복강도(yield strength): 일부 금속의 경우 경도와 인장 강도 간에도 상관 관계가 존재
+* 강재의 경우, UTS=500HB
+  * 단위는 각각 $psi, kg/mm^2$
+* 열처리 후 강도를 확인할 때 경도시험이 사용된다.
+  * 경도시험이 강도시험보다 상대적으로 간단하다.
+  * 대부분의 금속재료에 대하여 강도와 경도 간의 관계가 알려져 있다.
+ 
+## 충격 인성(impact toughness)
+* 충격 하중에 의한 재료의 파단에 소요된 에너지
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/305e1ad4-f860-47c9-b4b0-a72afb5ad66e)
+[](https://drive.google.com/file/d/0B27lN6BLzQm1ai1rMGxfWXFhUXc/view?resourcekey=0-cYPyClX5pzNX3cDxy3YXXg)
