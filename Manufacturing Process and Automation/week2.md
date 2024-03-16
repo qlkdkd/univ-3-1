@@ -67,4 +67,60 @@
 * 충격 하중에 의한 재료의 파단에 소요된 에너지
 
 ![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/305e1ad4-f860-47c9-b4b0-a72afb5ad66e)
-[](https://drive.google.com/file/d/0B27lN6BLzQm1ai1rMGxfWXFhUXc/view?resourcekey=0-cYPyClX5pzNX3cDxy3YXXg)
+[charpy impact test](https://drive.google.com/file/d/0B27lN6BLzQm1ai1rMGxfWXFhUXc/view?resourcekey=0-cYPyClX5pzNX3cDxy3YXXg)
+
+## 피로(fatigue)
+### 피로파괴(fatigue failure)
+* 주기적이고 반복적인 응력(동적 하중)(cyclic stress) 상태 하에서 재료가 정적 하중을 받을 때 파단되는 응력보다 낮은 응력에서 파단되는 현상
+  * 절삭공구, 금형, 기어, 캠 등
+* 기계요소들이 파손되는 주 원인
+* 기계적 하중이 아닌 반복되는 열적 하중에 의해서도 발생
+  * 예: 가열된 공작물과 접촉을 반복하는 다이(금형)가 파손되는 현상
+ 
+### 열적 하중(thermal stress)
+* 열에 의한 팽창이나 수축에 의해 가해지는 하중
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/5276cefe-a8a1-459a-8f82-b133d0ed7161)
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/376f40d7-0b48-43de-9ff2-90369611b673)
+
+### 피로 한도(fatigue limit)
+* 피로 파괴를 유발하지 않는 반복 응력의 최대 크기
+* 철 합금과 티타늄 합금에 적용
+* 금속재들의 피로한도는 극한 인장 강도와 일정한 관계
+  * 강재의 경우 피로한동는 인장강도의 약 반이다.
+### 피로 수명(fatigue life)
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/4d7c6d6b-d4f1-492b-ac6b-5d957eeb9d01)
+* 파단에 이르는 반복 횟수
+* 알루미늄에 적용
+### 피로 수명 향상을 위한 소재표면 가공법
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/39fb24c9-df36-4647-b4b9-f905da467bf1)
+
+* [shot peening](https://drive.google.com/file/d/0B27lN6BLzQm1eUJEWnNESy0wQVU/view?resourcekey=0-SRk_19VI3_ybWvc5FrIwTQ), [roller burnishing](https://drive.google.com/file/d/0B27lN6BLzQm1MENlQTJhdkdxSmM/view?resourcekey=0-aCo6--7Tf9LaAqXTpTps_w) 등
+* 표면을 경화시킨다.
+* 표면에 압축잔류응력이 생기게 한다.
+
+## creep
+* 소재에 정하중(정적 하중)이 가해진 상태로 장시간 방치되면 소재의 변형이 계속되는 현상
+  * 오래된 집의 창유리
+* 특히 고압이나 고열의 환경에서 작동하는 부품에 대한 creep 특성이 문제가 됨
+
+## 잔류 응력(Residual stress)
+* 소재가 변형된 후 외력이 완전히 제거된 상태에서 소재가 남아 있는 응력
+* 잔류응력에 의한 변형
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/a57f8c76-71c1-4250-a318-007130c0b8b9)
+
+* 잔류 응력의 제거
+  * 응력제거 풀림처리(stress relief annealing)
+    * 풀림처리=annealing=소둔(燒鈍)
+
+## 잔류응력(residual stress)의 원인
+* 부분적인 소성변형(불균일한 변형)이 원인
+* 기계적 하중에 의한 잔류응력의 발생
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/8762f8df-dabb-4950-acb3-e52618c2f638)
+
+* 열적 하중에 의한 잔류응력의 발생
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/aa8be656-311c-4eb5-aa83-f97ce7dd1244)
