@@ -4,6 +4,7 @@
 * brute-force method는 naive method라고도 함
 * 예: 최대공약수 방법, $a^n$을 구하는 알고리즘 등
 $$a^ n=1\times a\times ... \times a$$
+
 (시간복잡도: $O(n)$)
 
 ### 억지 기법의 중요성
