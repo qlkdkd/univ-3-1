@@ -67,4 +67,8 @@
  
 ![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/20217d77-6d7a-4c72-95bd-ebd90aa30830)
 * With the customaizing of the local layout you can, among other things, do the following:
-  * 
+  * Select a different color schema for your GUI, or change the font setting
+  * Determine the speed at which the tooltip is display and specify which messages(succes message, warning message, error message)are to be displayed in a dialog box
+  * Manage the input history for input fields
+  * Determine that in addition to the description, the key of an entry is displayed in dropdown lists, and whether the entries are sorted accroding to keys or descriptions(You can recognize a dropdown list by on the right-hand side in the input field.)
+* The favorites list on the SAP Easy Access screen and the status bar display variants provide additional personalization options.
