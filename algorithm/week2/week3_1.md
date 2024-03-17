@@ -93,3 +93,62 @@ print(sequential_search(l, 4))
 * 세 번째 위치에서 일치하였으므로, 이제 패턴의 두 번째 문자 'O'를 텍스트와 비교한다.
 * 텍스트의 문자 'L'과 다르므로 다시 패턴 전체를 다음 위치로 이동한다.
 * 네 번째 위치에서 드디어 패턴의 모든 문자가 일치하였고, 따라서 이 위치를 반환하면 된다.
+```python
+def string_matching(T, P):#T는 입력, P는 패턴
+    n=len(T)
+    m=len(P)
+    for i in range(n-m+1):
+        j=0
+        while j<m and P[j]==T[i+j]:#패턴 문자열을 모두 비교
+            j=j+1
+        if j==m:# 모든 문자가 일치하면, 매칭 성공
+            return i#현재 위치 반환
+    return -1#문자열 매칭 실패
+
+
+Str='HELLO WORLD'
+print(string_matching(Str, 'LO'))
+```
+
+### 복잡도 분석
+* 입력의 크기: 텍스트의 길이 n과 m
+* 기본 연산: 6행 (P[j]==T\[i+j\])
+
+* 최선의 경우: 텍스트 T의 맨 앞의 문자열이 패턴 P와 일치하는 경우. 패턴의 길이인 m번의 비교만으로 문자열 매칭이 종료됨
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/afb8a460-d592-429a-b309-132bdd507d15)
+* 최악의 경우: 각 위치에서도 패턴의 모든 문자를 비교해야 하는 경우
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/99b30487-c9d0-45f4-8a6f-9b26cb7676cd)
+
+## 3.4. 최근접 쌍의 거리
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/28eda51f-bc87-49d3-8068-daf3565336b9)
+
+### 억지 기법의 최근접 쌍의 거리 전략
+거리 계산: 유클리드 거리 사용
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/e8b8f1f4-8093-4b7d-b296-5c4d32695b98)
+```python
+import math
+
+def distance(p1, p2):
+    return math.sqrt((p1[0]-p2[0])**2+(p1[1]+p2[1])**2)
+
+def closest_pair(p):
+    n=len(p)
+    min_dist=float("inf")
+    for i in range(n):
+        for j in range(i+1, n):
+            dist=distance(p[i], p[j])
+            if dist<min_dist:
+                min_dist=dist
+    return dist
+
+p=[(2, 3), (12, 30), (40, 50), (5, 1), (12, 10), (3, 4)]
+print("최근접 거리: ", closest_pair(p))
+```
+
+### 복잡도 분석
+* 입력의 크기: n
+* 기본 연산: `dist=distance(p[i], p[j])`
+* 효율: 입력의 구성과는 관련이 없어 최선, 평균, 최악의 경우에 대해 항상 동일함
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/c5a330f3-260d-4cac-8101-4e033bc81067)
