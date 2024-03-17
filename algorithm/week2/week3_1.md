@@ -51,3 +51,33 @@ selection_sort(data)
 print('Selection: ', data)
 ```
 * 내부 루프의 최소 항목을 찾는 범위(i+1~n-1)와 리스트의 두 항목을 서로 교환하는 파이썬 코드에 유의
+
+### 복잡도 분석
+* 입력의 크기: 리스트의 전체 항목의 수 n
+* 기본 연산: 비교 연산(A[j]<A[least]
+* 입력구성(찾는 대상의 위치)에 따른 차이: 입력에 상관없이 항상 일정한 횟수의 비교 연산이 필요
+    * 즉 선택 정렬은 최선, 최악, 평균 등을 나누어 분석할 필요가 없음
+ 
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/bfca3999-db00-44f9-9591-04d18c4623b3)
+
+## 3.2. 순차탐색
+* 탐색: 주어진 항목들 중에서 "탐색키"라 불리는 원하는 값을 가진 항목을 찾는 것
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/6f792514-f175-49f8-82e6-b73ae8357c4d)
+* 순차탐색(선형탐색): 입력리스트의 첫 항목부터 순서대로 하나씩 탐색키와 비교한다
+* 순차탐색은 특히 정렬되지 않은 리스트에서도 원하는 항목을 찾을 수 있는 방법
+
+```python
+def sequential_search(A, key):
+    for i in range(len(A)):
+        if A[i]==key:
+            return i
+    return -1
+
+l=[5, 3, 8, 4, 2, 7]
+print(sequential_search(l, 4))
+```
+
+### 복잡도 분석
+* 최선의 경우: 리스트의 첫 번째 항목이 key인 경우: $T_{best}(n)\in O(1)$
+* 최악의 경우: 찾고자 하는 숫자가 리스트에 없거나 맨 뒤에 있는 경우: $T_{worst}(n)=n\in O(n)$
+* 평균적인 경우: 리스트의 모든 숫자가 골고루 한번씩 key로 사용되는 경우: $T_{avg}(n)=\frac{n+1}{2}\in O(n)$
