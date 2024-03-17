@@ -72,3 +72,14 @@
   * Manage the input history for input fields
   * Determine that in addition to the description, the key of an entry is displayed in dropdown lists, and whether the entries are sorted accroding to keys or descriptions(You can recognize a dropdown list by on the right-hand side in the input field.)
 * The favorites list on the SAP Easy Access screen and the status bar display variants provide additional personalization options.
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/8daf02ed-2acd-4784-9ffa-05007814186e)
+* Determination of Requirements
+  * Employees of a business department can manualluy create a purchase requisition to inform the purchasing department about material requirements.
+  * If you have set a materials requirements planning(MRP) procedure for a meta=erail in the material master, the SAP system automatically generates a purchase requistion.
+ 
+* Determination of Supply Source/Supply Selection
+  * The system supports buyers in determining possible supply sources. You can refer to purchase orders, outline agreements, and purchasing information records that already exist in the system. In addition, you can create requests for buyer quitations(RFQs).
+  * To Find out which supplier has the best prices you can carry out price comparisons
+ 
+ 
