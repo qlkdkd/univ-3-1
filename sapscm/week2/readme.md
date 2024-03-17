@@ -44,4 +44,27 @@
 
 ![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/1f7c724b-01a7-4628-9808-08c333d4cc84)
 * The SAP Fiori launchpad is a shell that hosts SAP Fiori apps and provides services such as navigation, personalization, emnedded support, and application configuration.
-* It is also the entry point to SAP Fiori apps on mobile and desktop devices. the launchpad displays a nome page with tiles, which 
+* It is also the entry point to SAP Fiori apps on mobile and desktop devices. the launchpad displays a nome page with tiles, which can display live status indicators, such as the number of open tasks.
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/8fea7451-e46b-4e0d-89de-bdce52b36849)
+* The SAP graphical user interfase SAP (SAP GUI) is the frond-end program used to access SAQP systems. Several variants of the SAP GUI are available and are adapted for use in different environments
+* The SAP GUI program connects the front-end computer to a specific SAP system. To start the SAP GUI, SAP provides another program: SAP Logon
+* When the user launches SAP Logon, a screen displays a list of available SAP Systems.
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/9b7e70aa-9ca2-4b60-8962-351d89993656)
+* Once you have started logon process for a system, you must enter, among other things, your user and password on the logon screen of the selected system.
+* If you want to use additional processing windows, you can work in several sessions(processing window of the SAP system) simultaneously within one logon.
+
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/61957840-6c25-43f6-bbc3-6d694ed12ff8)
+* In the left screen area, you will see a tree hierarchy diagram of the menus available in the SAP system.
+  * favorites area: be created by the user
+  * SAP menu or in the user: be specified centrally by the syustem administrator.
+    * The user menu is a menu that contains a limited selection of task-specific functions.
+* You can navigate in different ways in the system.
+  * Use the menu bar
+  * Enter transaction codes in the command field.
+  * Use the favorite, the user menu, or SAP menu
+ 
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/20217d77-6d7a-4c72-95bd-ebd90aa30830)
+* With the customaizing of the local layout you can, among other things, do the following:
+  * 
