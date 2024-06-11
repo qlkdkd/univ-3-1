@@ -63,4 +63,5 @@ int main(){
 
 ![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/4afe8db3-7603-4f91-8173-9b724d0a1a3a)
 
-![Uploading image.png…]()
+![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/8e1c963f-8998-48fe-8960-f6cb4ae60188)
+
