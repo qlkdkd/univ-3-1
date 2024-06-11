@@ -58,4 +58,4 @@ int main(){
 ```
 
 ![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/a9b00ef9-f96f-4ad2-be2e-2d7d9bd25d3e)
-![image](https://github.com/qlkdkd/univ-3-1/assets/71871927/7327458a-c6쌈
+
